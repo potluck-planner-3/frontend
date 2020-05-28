@@ -3,13 +3,13 @@ import React from "react";
 
 //this is a list of potlucks user is hosting. user can click on their potluck to modify it. 
 
-const MyPotluck = () => {
+const MyPotluckCard = () => {
   return (
     <div>
-      <h2>potlucks user is hosting </h2>
-      <button> Create Potluck </button>
+      <h2>Specific Potluck </h2>
+      <button> Edit potluck </button>
     </div>
   );
 };
 
-export default Nav;
+export default MyPotluckCard;
