@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Nav from './Nav';
+import PotluckList from './PotluckList'
 
 const Dashboard = () => {
     return (
         <div>
             <Nav />
-      <h1>dashboard</h1>
+      <PotluckList />
         </div>
     )
 }
